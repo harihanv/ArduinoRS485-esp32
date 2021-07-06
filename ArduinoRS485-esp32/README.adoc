@@ -7,9 +7,9 @@ image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml/badge.svg["Compile Examples status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/compile-examples.yml"]
 image:https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml/badge.svg["Spell Check status", link="https://github.com/{repository-owner}/{repository-name}/actions/workflows/spell-check.yml"]
 
-Enables sending and receiving data using the RS-485 standard with RS-485 shields, like the MKR 485 Shield.
+Enables sending and receiving data using the RS-485 standard with RS-485 shields, Direction control is not enabled.
 
-This library supports the Maxim Integrated MAX3157 and equivalent chipsets.
+This library supports the esp32 chipsets with auto direction control
 
 For more information about this library please visit us at
 http://www.arduino.cc/en/Reference/{repository-name}
