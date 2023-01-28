@@ -36,6 +36,12 @@
 #define RS485_DEFAULT_RE_PIN A5
 #endif
 
+#if defined(ESP32)
+#define SERIAL_PORT_HARDWARE Serial2 
+#define RS485_DEFAULT_TX_PIN -1
+#define RS485_DEFAULT_DE_PIN -1
+#define RS485_DEFAULT_RE_PIN -1
+#endif
 
 #define RS485_DEFAULT_PRE_DELAY 50
 #define RS485_DEFAULT_POST_DELAY 50
